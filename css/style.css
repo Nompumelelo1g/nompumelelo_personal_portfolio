@@ -8,6 +8,24 @@ p {
     font-family: "Poppins", sans-serif;
     font-weight: normal;
 } */
+:root{
+    --primary-color: rgb(165, 165, 165);
+    --heading-text:"Playfair Display",
+        serif;
+    --sub-heading-text:"Poppins",
+        sans-serif;
+}
+
 .heading{
     margin-top: 70px;
+    text-align: center;
+    background: var(--primary-color);
+    padding:50px;
+    font-family: var(--sub-heading-text);
+    font-weight: normal;
+}
+.heading h1{
+    font-size: 96px;
+    font-family: var(--heading-text);
+    font-weight: bold;
 }
