@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
     color: black;
     font-family: "Playfair Display", serif;
     font-weight: bold;
@@ -7,4 +7,7 @@ h1 {
 p {
     font-family: "Poppins", sans-serif;
     font-weight: normal;
+} */
+.heading{
+    margin-top: 70px;
 }
