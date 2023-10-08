@@ -9,18 +9,21 @@ p {
     font-weight: normal;
 } */
 :root{
-    --primary-color: rgb(165, 165, 165);
+    --primary-color: #F8F9FA;
     --heading-text:"Playfair Display",
         serif;
     --sub-heading-text:"Poppins",
         sans-serif;
+    --branding-color: #C08E81;
 }
-
+body{
+    background: var(--branding-color);
+}
 .heading{
     margin-top: 70px;
     text-align: center;
     background: var(--primary-color);
-    padding:50px;
+    padding:15px 30px;
     font-family: var(--sub-heading-text);
     font-weight: normal;
 }
@@ -28,4 +31,28 @@ p {
     font-size: 96px;
     font-family: var(--heading-text);
     font-weight: bold;
+}
+.btn-primary {
+    background: var(--branding-color);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+.personal-img img{
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+@media (max-width:600px){
+    .heading h1{
+        font-size: 50px;
+    }
+    .heading h2{
+        font-size: 25px;
+    }
 }
