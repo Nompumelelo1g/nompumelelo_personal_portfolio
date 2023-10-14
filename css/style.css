@@ -1,15 +1,5 @@
-/* h1 {
-    color: black;
-    font-family: "Playfair Display", serif;
-    font-weight: bold;
-}
-
-p {
-    font-family: "Poppins", sans-serif;
-    font-weight: normal;
-} */
 :root{
-    --primary-color: #F8F9FA;
+    --button-color: #F4DFB6;
     --heading-text:"Playfair Display",
         serif;
     --sub-heading-text:"Poppins",
@@ -21,25 +11,25 @@ body{
 }
 .heading{
     margin-top: 70px;
-    text-align: center;
-    background: var(--primary-color);
     padding:15px 30px;
-    font-family: var(--sub-heading-text);
-    font-weight: normal;
+    
 }
 .heading h1{
     font-size: 96px;
     font-family: var(--heading-text);
     font-weight: bold;
 }
-.btn-primary {
-    background: var(--branding-color);
+.heading h2{
+    font-family: var(--sub-heading-text);
+    font-weight: bold;
+}
+.btn{
+    background-color: var(--button-color);
     border: none;
+    padding: 15px 30px;
     border-radius: 4px;
-    color: white;
     font-size: 18px;
     line-height: 27px;
-    padding: 15px 30px;
 }
 .personal-img img{
     max-width: 400px;
@@ -47,7 +37,16 @@ body{
     margin: 0 auto;
     border-radius: 10px;
 }
+.button-container{
+    text-align: center;
+}
+.contact-details-buttons{
+    text-align: center;
+}
 
+.my-work-pictures{
+    max-width: 500px;
+}
 @media (max-width:600px){
     .heading h1{
         font-size: 50px;
