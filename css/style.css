@@ -37,11 +37,9 @@ body{
     margin: 0 auto;
     border-radius: 10px;
 }
-.button-container{
-    text-align: center;
-}
-.contact-details-buttons{
-    text-align: center;
+.about-section p{
+    border: 1px solid #F4DFB6;
+    line-height: 1.5;
 }
 
 .my-work-pictures{
